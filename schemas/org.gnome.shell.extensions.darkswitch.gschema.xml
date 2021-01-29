@@ -1,0 +1,24 @@
+<schemalist gettext-domain="darkswitch">
+  <schema id="org.gnome.shell.extensions.darkswitch" path="/org/gnome/shell/extensions/darkswitch/">
+    <key name="dark" type="b">
+      <default>false</default>
+      <summary>Light or Dark</summary>
+    </key>
+    <key name="light-theme" type="s">
+      <default>"Adwaita"</default>
+      <summary>Light Theme</summary>
+    </key>
+    <key name="dark-theme" type="s">
+      <default>"Adwaita-dark"</default>
+      <summary>Dark Theme</summary>
+    </key>
+    <key name="light-background" type="s">
+      <default>""</default>
+      <summary>Light Wallpaper</summary>
+    </key>
+    <key name="dark-background" type="s">
+      <default>""</default>
+      <summary>Dark Wallpaper</summary>
+    </key>
+  </schema>
+</schemalist>
