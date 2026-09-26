@@ -74,11 +74,10 @@ var DSInstance = class DSInstance  {
     _setMenuItem() {
         if (this._isDark === true) {
             this._menuItem.label.text = 'Switch to Day mode';
-            // this._menuItem.setIcon('weather-clear-symbolic'); 
-
+            this._menuItem.setIcon('weather-clear-symbolic');
         } else {
             this._menuItem.label.text = 'Switch to Night mode';
-            // this._menuItem.setIcon('weather-clear-night-symbolic'); 
+            this._menuItem.setIcon('weather-clear-night-symbolic');
         }
     }
 
